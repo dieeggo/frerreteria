@@ -1,0 +1,74 @@
+
+
+.card{
+    padding: 10px;
+     display: flex;
+}
+
+
+#fh5co-wrap {
+    position: relative;
+    background: #fff;
+    z-index: 2;
+    margin-bottom: 450px;
+  }
+  @media screen and (max-width: 992px) {
+    #fh5co-wrap {
+      margin-bottom: auto;
+    }
+  }
+
+#fh5co-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  #fh5co-header nav {
+    text-align: center;
+  }
+  #fh5co-header nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  #fh5co-header nav li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+  }
+  #fh5co-header nav li a {
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+  }
+  #fh5co-header nav li a span {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+    display: block;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-header nav li a {
+      padding: 10px 2px;
+    }
+  }
+  #fh5co-header nav li a:hover {
+    color: white;
+  }
+  #fh5co-header nav li a:hover span {
+    border-bottom: 2px solid #fff;
+  }
+  #fh5co-header nav li.fh5co-active a {
+    color: #fff;
+  }
+  #fh5co-header nav li.fh5co-active a span {
+    border-bottom: 2px solid #fff;
+  }
